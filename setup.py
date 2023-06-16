@@ -5,7 +5,7 @@ import setuptools
 with open("requirements.txt", encoding="utf-8") as r:
     requirements = [i.strip() for i in r]
 
-with open("Kynaylibs/version.py", "rt", encoding="utf8") as x:
+with open("kynaylibs/version.py", "rt", encoding="utf8") as x:
     version = re.search(r'__version__ = "(.*?)"', x.read()).group(1)
 
 with open("README.md", "r", encoding="utf-8") as fh:
