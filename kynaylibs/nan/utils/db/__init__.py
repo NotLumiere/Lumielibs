@@ -38,7 +38,7 @@ vardb = db.variable
 sudoersdb = db.sudoers
 
 MSG_ON = """
-**Naya Premium Actived ✅**
+**Lumi Premium Actived ✅**
 ╼┅━━━━━━━━━━╍━━━━━━━━━━┅╾
 ◉ **Versi** : `{}`
 ◉ **Phython** : `{}`
@@ -48,7 +48,7 @@ MSG_ON = """
 """
 
 MSG_ON2 = """
-**Naya Premium Actived ✅**
+**Lumi Premium Actived ✅**
 ╼┅━━━━━━━━━━╍━━━━━━━━━━┅╾
 ◉ **Versi** : `{}`
 ◉ **Phython** : `{}`
@@ -78,8 +78,8 @@ async def buat_log():
                 botlog_chat_id = user_data.get("bot_log_group_id")
 
             if not user_data or not botlog_chat_id:
-                group_name = "Naya Premium Logs"
-                group_description = "Jangan Hapus Atau Keluar Dari Grup Ini\n\nCreated By @KynanSupport .\nJika menemukan kendala atau ingin menanyakan sesuatu\nHubungi : @kenapanan, @rizzvbss atau bisa ke @KynanSupport."
+                group_name = "Lumi Pyro Logs"
+                group_description = "Jangan Hapus Atau Keluar Dari Grup Ini\n\nCreated By @LumiereSupport .\nJika menemukan kendala atau ingin menanyakan sesuatu\nHubungi : @Urfavtoyy, @Strangedocx atau bisa ke @Lumieresupport."
                 group = await bots_.create_supergroup(group_name, group_description)
                 botlog_chat_id = group.id
                 photo = "naya/resources/logo.jpg"
@@ -118,8 +118,8 @@ async def babi(bot):
         botlog_chat_id = user_data.get("bot_log_group_id")
 
     if not user_data or not botlog_chat_id:
-        group_name = "Naya Premium Logs"
-        group_description = "Jangan Hapus Atau Keluar Dari Grup Ini\n\nCreated By @KynanSupport .\nJika menemukan kendala atau ingin menanyakan sesuatu\nHubungi : @kenapanan, @rizzvbss atau bisa ke @KynanSupport."
+        group_name = "Lumi Pyro Logs"
+        group_description = "Jangan Hapus Atau Keluar Dari Grup Ini\n\nCreated By @LumiereSupport .\nJika menemukan kendala atau ingin menanyakan sesuatu\nHubungi : @urfavtoyy, @Strangedocx atau bisa ke @LumiereSupport."
         group = await bot.create_supergroup(group_name, group_description)
         botlog_chat_id = group.id
         photo = "naya/resources/logo.jpg"
