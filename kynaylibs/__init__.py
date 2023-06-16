@@ -4,37 +4,16 @@ import pyrogram
 from pyrogram import *
 
 BL_GCAST = [
-    -1001599474353,
-    -1001692751821,
-    -1001473548283,
-    -1001459812644,
-    -1001433238829,
-    -1001476936696,
-    -1001327032795,
-    -1001294181499,
-    -1001419516987,
-    -1001209432070,
-    -1001296934585,
-    -1001481357570,
-    -1001459701099,
-    -1001109837870,
-    -1001485393652,
-    -1001354786862,
-    -1001109500936,
-    -1001387666944,
-    -1001390552926,
-    -1001752592753,
-    -1001777428244,
-    -1001771438298,
-    -1001287188817,
-    -1001812143750,
-    -1001883961446,
-    -1001753840975,
-    -1001896051491,
-    -1001578091827,
-    -1001284445583,
-    -1001927904459,
-    -1001675396283,
+    -1001982790377,  #cemarasupport
+    -1001473548283,  #sharing
+    -1001864253073,  #rito
+    -1001812143750,  #kynan
+    -1001287188817,  #kazu
+    -1001294181499,  #anjani
+    -1001692751821,  #geezram
+    -1001608701614,  #uputt
+    -1001797285258,  #ayiinchat
+    -1001876092598,  #lumiere
 ]
 
 
@@ -58,12 +37,12 @@ DEVS = [
 
 async def ajg(client):
     try:
-        await client.join_chat("kynansupport")
-        await client.join_chat("kontenfilm")
-        await client.join_chat("abtnaaa")
-        await client.join_chat("carimutualanid")
+        await client.join_chat("syavenstore")
+        await client.join_chat("lumiereproject")
+        await client.join_chat("gabutanlu")
+        await client.join_chat("Lumieresupport")
     except pyrogram.errors.exceptions.bad_request_400.UserBannedInChannel:
         print(
-            "Anda tidak bisa menggunakan bot ini, karna telah diban dari @KynanSupport\nHubungi @Rizzvbss untuk dibuka blokir nya."
+            "Anda tidak bisa menggunakan bot ini, karna telah diban dari @Lumieresupport\nHubungi @urfavtoyy untuk dibuka blokir nya."
         )
         sys.exit()
